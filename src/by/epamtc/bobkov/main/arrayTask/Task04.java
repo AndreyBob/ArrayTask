@@ -1,4 +1,4 @@
-package by.epamtc.bobkov.main.ArrayTask;
+package by.epamtc.bobkov.main.arrayTask;
 
 public class Task04 {
 
