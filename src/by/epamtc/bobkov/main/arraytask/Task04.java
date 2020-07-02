@@ -1,8 +1,9 @@
-package by.epamtc.bobkov.main.arrayTask;
+package by.epamtc.bobkov.main.arraytask;
 
 public class Task04 {
 
     public static void main(String[] args) {
+
         System.out.println(getMaxFrequencyNum(2,5,6,2,1,1));
     }
 

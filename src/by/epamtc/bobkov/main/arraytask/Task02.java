@@ -1,4 +1,4 @@
-package by.epamtc.bobkov.main.arrayTask;
+package by.epamtc.bobkov.main.arraytask;
 
 import java.util.Arrays;
 

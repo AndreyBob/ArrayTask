@@ -1,7 +1,7 @@
-package by.epamtc.bobkov.main.arrayTask;
+package by.epamtc.bobkov.main.arraytask;
 
 public class Task01 {
-    //fd
+
     public static void main(String[] args) {
 
         System.out.format("Наибольшая сумма - %.2f", findMaxValueOfMassive(6));

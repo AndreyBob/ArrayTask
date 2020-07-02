@@ -1,12 +1,17 @@
-package by.epamtc.bobkov.main.arrayTask;
+package by.epamtc.bobkov.main.arraytask;
 
 import java.util.Arrays;
 
 public class Task03 {
     public static void main(String[] args) {
+        createSuperLock();
+
+    }
+
+    public static void createSuperLock() {
         boolean flag = true;
         int[] lock = new int[10];
-        int nIndex1 = (int) (Math.random() * 10) ;
+        int nIndex1 = (int) (Math.random() * 10);
         int nIndex2 = (int) (Math.random() * 10);
         int firstValue = (int) (Math.random() * 6) + 1;
         int secondValue = (int) (Math.random() * 6) + 1;
@@ -29,7 +34,7 @@ public class Task03 {
             int count = 0;
             //проверка на сумму трех ячеек
             for (int j = 0; j < 8; j++) {
-                if ((lock[j] + lock[j+1] + lock[j + 2]) == 10) {
+                if ((lock[j] + lock[j + 1] + lock[j + 2]) == 10) {
                     count++;
                 }
             }
